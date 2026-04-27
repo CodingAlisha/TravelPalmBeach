@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:opsz,wght@14..32,100..900&family=Playwrite+DE+SAS:wght@100..400&display=swap');
+
+.homePage {
+    background-image: url('../../assets/HomeBG.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Home Title */
+.homeTitleContainer {
+    /* display:flex; */
+    justify-content: flex-start;
+    padding: 90px;
+}
+
+.homeTitle {
+    text-align: left;
+    font-family: 'Cormorant';
+    font-size:xx-large;
+    padding:0px 30px;
+    
+}
+
+.homeSub {
+     font-family: 'Playwrite DE SAS', cursive;
+     text-align: left;
+     padding: 5px 20px;
+     
+}
+
+
+.imgOne {
+    display:block;
+    text-align: right;
+    /* border-radius:29px 9px 9px 9px; */
+    /* padding-top: 0; */
+    padding-top: 0px;
+    padding-right: 90px;
+    padding-bottom: 90px;
+    overflow: hidden;
+}
+
+.homePara {
+    font-family: 'Cormorant';
+    font-size:x-large;
+    display: block;
+    text-align: left;
+    /* padding: 3px 20px; */
+    width:35%;
+    height: 1px;
+    padding-bottom: 30px;
+   
+}
+
+/* Home Dining*/
+
+.homeDiningContainer {
+    /* display:flex; */
+    justify-content: flex-start;
+}
+
+.homeDiningTitle {
+    text-align: right;
+    font-family: 'Cormorant';
+    font-size:xx-large;
+    padding:5px 20px;
+    
+}
+
+.homeDiningPara {
+    font-family: 'Cormorant';
+    font-size:x-large;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    /* padding: 3px 20px; */
+    width:35%;
+    height: 1px;
+    padding-bottom: 30px;
+   
+}
+
+.homeDiningSub {
+     font-family: 'Playwrite DE SAS', cursive;
+     display:right;
+     text-align: right;
+     padding: 1px 180px 0px 20px;
+     
+}
+
+.imgTwoDining {
+    display:block;
+    text-align: left;
+    border-radius:90px;
+    padding-bottom: 30px;
+    
+}
+
+/* Home Hotel */
+.homeHotelTitleContainer {
+    /* display:flex; */
+    justify-content: flex-start;
+}
+
+.homeHotelTitle {
+    text-align: left;
+    font-family: 'Cormorant';
+    font-size:xx-large;
+    padding:5px 20px;
+    
+}
+
+.homeHotelSub {
+     font-family: 'Playwrite DE SAS', cursive;
+     text-align: left;
+     padding: 1px 20px;
+     
+}
+
+
+.imgThreeHotel {
+    display:block;
+    text-align: right;
+    /* border-radius:29px 9px 9px 9px; */
+    padding-top: 0;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.homeHotelPara {
+    font-family: 'Cormorant';
+    font-size:x-large;
+    display: block;
+    text-align: left;
+    padding: 3px 20px;
+    width:35%;
+    height: 1px;
+    padding-bottom: 30px;
+   
+}

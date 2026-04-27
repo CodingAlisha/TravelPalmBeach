@@ -1,0 +1,26 @@
+
+.diningPage {
+    background-color: #f8f5f2;
+}
+
+.diningTitle {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+.diningContainer {
+    flex-direction: row;
+    display: wrap;
+    padding: 20px;
+    margin:20px;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 30px;
+    text-align: center;
+
+}
