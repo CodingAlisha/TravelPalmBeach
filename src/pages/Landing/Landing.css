@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:opsz,wght@14..32,100..900&family=Playwrite+DE+SAS:wght@100..400&display=swap');
+
+
+
+
+
+.landingContainer {
+    background-image: url('../../assets/HomeBG.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+.landingContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+
+.landingTitle, .landingSub, .landingPara {
+    padding-left: 10rem;
+    font-family: 'Cormorant';
+}
+
+.landingPara {
+    flex:1;
+    max-width: 600px;
+    font-size: x-large;
+    /* display: block; */
+}
+
+.MainBtn {
+    text-decoration: none;
+    display: inline-block;
+    font-size: xx-large;
+    font-family: 'Cormorant';
+    padding: 10px 100px;
+    border-radius: 8px;
+    margin-left: 15rem;
+    /* padding-left: 25rem; */
+    background-color: #003049;
+    color: #f8f5f2;
+    margin-bottom: 20px;
+    
+}
+
+.landingTitle {
+    padding-top: 3rem;
+}
+
+.imgOneLanding {
+    margin-left: auto;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    display: block;
+    
+}
+
+
+.landingDiningContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.landingDiningTitle, .landingDiningSub, 
+.landingDiningPara  {
+    padding-left: 10rem;
+    font-family: 'Cormorant';
+    
+}
+
+/* .landingDiningTitle, .landingDiningSub, 
+.landingDiningPara {
+    margin-left: auto;
+    padding-right: 12rem;
+    font-family: 'Cormorant';
+    
+} */
+
+.landingDiningPara {
+    font-size: x-large;
+}
+
+
+.landingDiningPara {
+    flex:1;
+    max-width: 550px;
+    
+}
+.imgTwoLanding {
+    margin-left: auto;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    display: block;
+}
+
+/* .imgTwoLanding {
+    padding-top:2rem;
+    padding-left: 9rem;
+   
+} */
+
+.landingHotelTitle, .landingHotelSub, .landingHotelPara {
+    padding-left: 10rem;
+    padding-top: 5px;
+    font-family: 'Cormorant';
+}
+
+.landingHotelPara {
+    flex:1;
+    max-width: 600px;
+    font-size: x-large;
+}
+
+.imgThreeLanding {
+    margin-left: auto;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    display: block;
+}
+
+.landingCardSection {
+    display: wrap;
+    text-align: center;
+    background-color: #f8f5f2;
+}
+
+.landingCardSectionH1, .landingCardSectionH2, .landingCardSectionH3 {
+    font-family: 'Cormorant';
+    text-align: center;
+    color: #003049;
+    font-size: xx-large;
+}
+
+.landingCardSectionH1 {
+    margin-top: 35px;
+}

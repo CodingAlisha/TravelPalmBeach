@@ -12,6 +12,10 @@ const Navbar = () => {
       <nav className='navbar'>
         <Link to='/'>HOME</Link>
         <Link to='/Dining'>DINING</Link>
+        <Link to='/Landing'>LANDING</Link>
+        <Link to='/Romance'>ROMANCE</Link>
+        <Link to='/Adventure'>ADVENTURE</Link>
+        <Link to='/Hotel'>HOTEL</Link>
       </nav>
     </div>
   )
