@@ -3,7 +3,7 @@
     background-color: #f8f5f2;
 }
 
-.diningTitle {
+.diningTitle, .diningText {
     text-align: center;
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
@@ -23,4 +23,19 @@
     gap: 30px;
     text-align: center;
 
+}
+
+.diningText {
+    color:#003049;
+    font-family: 'Cormorant';
+    font-size: x-large;
+    /* max-width: 800px;
+    max-height: 300px;
+    text-align: center; */
+}
+
+.diningTitle {
+    color:#003049;
+    font-family: 'Cormorant';
+    font-size: xx-large;
 }

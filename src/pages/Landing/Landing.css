@@ -3,17 +3,6 @@
 
 
 
-
-
-.landingContainer {
-    background-image: url('../../assets/HomeBG.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-}
-
-
 .landingContainer{
     display: flex;
     flex-direction: column;
@@ -77,13 +66,6 @@
     
 }
 
-/* .landingDiningTitle, .landingDiningSub, 
-.landingDiningPara {
-    margin-left: auto;
-    padding-right: 12rem;
-    font-family: 'Cormorant';
-    
-} */
 
 .landingDiningPara {
     font-size: x-large;
@@ -102,11 +84,6 @@
     display: block;
 }
 
-/* .imgTwoLanding {
-    padding-top:2rem;
-    padding-left: 9rem;
-   
-} */
 
 .landingHotelTitle, .landingHotelSub, .landingHotelPara {
     padding-left: 10rem;
@@ -143,3 +120,19 @@
 .landingCardSectionH1 {
     margin-top: 35px;
 }
+
+.ExploreBtn {
+    text-decoration: none;
+    display: inline-block;
+    font-size: xx-large;
+    font-family: 'Cormorant';
+    padding: 10px 100px;
+    border-radius: 8px;
+    margin-left: 5rem;
+    /* padding-left: 25rem; */
+    background-color: #003049;
+    color: #f8f5f2;
+    margin-bottom: 20px;
+    
+}
+

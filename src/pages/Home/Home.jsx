@@ -65,16 +65,4 @@ const Home = () => {
   )
 }
 
-export default Home
-
-
-{/* <div className='homeGallerySpec'>
-      {homePhotos.map((item, index) => (
-        <Gallery 
-        key={index}
-        photos={item.photos}
-        />
-      )
-
-      )}
-    </div> */}
+export default Home;

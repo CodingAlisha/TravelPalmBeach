@@ -1,16 +1,28 @@
 import React from 'react'
-import { RowsPhotoAlbum } from 'react-photo-album'
 import './Gallery.css'
 
-const Gallery = ({photos}) => {
+
+
+
+
+
+const Gallery = ({ img, alt, link }) => {
+
+
   return (
-    <div className='gallerySpec'>
-      <RowsPhotoAlbum photos={photos}
-      targetRowHeight={120}
-      rowConstraints={{ maxPhotos: 3 }}
-      spacing={8}/>
-     
-    </div>
+
+      <div className='galleryItem'>
+        <a href={link} 
+        className='galleryLink'
+        >
+
+          <img src={img} 
+          alt={alt}  
+          className='galleryImg'/>
+        </a>
+
+        </div>
+ 
   )
 }
 

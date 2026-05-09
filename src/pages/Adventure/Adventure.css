@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:opsz,wght@14..32,100..900&family=Playwrite+DE+SAS:wght@100..400&display=swap');
+
+
+.adventurePage {
+    background-color: #f8f5f2;
+
+}
+
+
+.adventureTitle, .adventureText {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.adventureContainer {
+    flex-direction: row;
+    display: wrap;
+    padding: 20px;
+    margin:20px;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 30px;
+    text-align: center;
+
+}
+
+.adventureTitle {
+    color:#003049;
+    font-family: 'Cormorant';
+    font-size: xx-large;
+
+}
+
+.adventureText {
+    color:#003049;
+    font-family: 'Cormorant';
+    font-size: x-large;
+
+}
+

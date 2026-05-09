@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:opsz,wght@14..32,100..900&family=Playwrite+DE+SAS:wght@100..400&display=swap');
 
 
-.romancePage {
+.hotelPage {
     background-color: #f8f5f2;
 
 }
 
 
-.romanceTitle, .romanceText {
+.hotelTitle, .hotelText {
     text-align: center;
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.romanceContainer {
+.hotelContainer {
     flex-direction: row;
     display: wrap;
     padding: 20px;
@@ -26,14 +26,14 @@
 
 }
 
-.romanceTitle {
+.hotelTitle {
     color:#003049;
     font-family: 'Cormorant';
     font-size: xx-large;
 
 }
 
-.romanceText {
+.hotelText {
     color:#003049;
     font-family: 'Cormorant';
     font-size: x-large;
