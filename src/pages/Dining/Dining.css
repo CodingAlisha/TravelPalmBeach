@@ -1,4 +1,26 @@
 
+
+.diningPage {
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+}
+
+@media screen and ( min-width: 768px){
+    .diningPage {
+        padding: 20px;
+        flex-direction: row;
+    }
+}
+
+@media  screen and ( min-width: 1024px) {
+    .diningPage{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+
 .diningPage {
     background-color: #f8f5f2;
 }

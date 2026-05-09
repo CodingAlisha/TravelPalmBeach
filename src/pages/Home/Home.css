@@ -8,21 +8,21 @@
     background-repeat: no-repeat;
 }
 
-.homePage {
+.homePage, .homeHotelTitleContainer{
     display:flex;
     flex-direction: column;
     padding:10px;
 }
 
 @media screen and ( min-width: 768px){
-    .homePage {
+    .homePage, .homeHotelTitleContainer {
         padding: 20px;
         flex-direction: row;
     }
 }
 
 @media  screen and ( min-width: 1024px) {
-    .homePage {
+    .homePage, .homeHotelTitleContainer {
         max-width: 1200px;
         margin: 0 auto;
     }
