@@ -8,6 +8,29 @@
     background-repeat: no-repeat;
 }
 
+
+.homePage {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, minmax(0, 250px));
+    gap:2px;
+}
+
+
+@media (max-width: 850px) {
+    .homePage {
+        grid-template-columns: repeat(2, minmax(0,250px));
+    }
+    
+}
+
+@media (max-width: 550px) {
+    .homePage {
+        grid-template-columns: repeat(1, minmax(0,250px));
+    }
+    
+}
+
 /* Home Title */
 .homeTitleContainer {
     /* display:flex; */
