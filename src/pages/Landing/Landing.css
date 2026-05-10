@@ -7,9 +7,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
 
 }
+
 
 .landingTitle, .landingSub, .landingPara {
     padding-left: 10rem;
@@ -108,6 +108,7 @@
     display: wrap;
     text-align: center;
     background-color: #f8f5f2;
+    width:100%;
 }
 
 .landingCardSectionH1, .landingCardSectionH2, .landingCardSectionH3 {
@@ -136,3 +137,92 @@
     
 }
 
+
+/* Add iphone screen sizing */
+
+@media only screen and (max-width: 600px) {
+    .landingContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        
+        }
+        
+        
+        .landingTitle, .landingSub, .landingPara {
+            padding: 2px;
+            margin: 15px;
+            font-family: 'Cormorant';
+        }
+        
+        
+        .MainBtn {
+            text-decoration: none;
+            display: inline-block;
+            font-size: xx-large;
+            font-family: 'Cormorant';
+            padding: 10px 10px;
+            border-radius: 8px;
+            margin-left: 7rem;
+        }
+        
+        .landingTitle {
+            padding-top: 3rem;
+        }
+        
+        .imgOneLanding {
+            width:100%;
+            margin-left:25px;
+            margin-right: none;
+           
+        }
+    }
+
+
+
+    /* Add iphone DINING screen sizing */
+
+@media only screen and (max-width: 600px) {
+
+.landingDiningContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.landingDiningTitle, .landingDiningSub, 
+.landingDiningPara  {
+    padding-left: 2px;
+    margin: 15px;
+    font-family: 'Cormorant';
+    
+}
+
+.imgTwoLanding {
+    width:100%;
+    margin-left:25px;
+    margin-right: none;
+}
+
+}
+
+  /* Add iphone HOTEL screen sizing */
+
+  @media only screen and (max-width: 600px) {
+
+.landingHotelTitle, .landingHotelSub, .landingHotelPara {
+    padding-left: 2px;
+    margin: 15px;
+    font-family: 'Cormorant';
+}
+
+
+.imgThreeLanding {
+    width:100%;
+    margin-left:25px;
+    margin-right: none;
+}
+
+  }

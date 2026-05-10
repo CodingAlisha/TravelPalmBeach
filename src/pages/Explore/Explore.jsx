@@ -29,7 +29,7 @@ const Explore = () => {
   return (
     <div>
       <h1 className='exploreTitle'>EXPLORE & EXPERIENCE</h1>
-      <h2 className='exploreText'>"Discover the calming unforgettable experiences that make Palm Beach a destination like no other. From relaxing spa dates to exciting adventure, and fine dining, there's always something new to explore. Whether you're visiting for the first time or returning again, every moment offers a unique experience." </h2>
+      <h2 className='exploreText'>Discover the calming unforgettable experiences that make Palm Beach a destination like no other. From relaxing spa dates to exciting adventure, and fine dining, there's always something new to explore. Whether you're visiting for the first time or returning again, every moment offers a unique experience. </h2>
 
 
       <MainGallery exploreAll={photos} />

@@ -39,3 +39,40 @@
     height: 90px;
     
 }
+
+
+/* Add screen sizing */
+
+@media only screen and (max-width: 600px) {
+    .navbar  {
+        .navbar  {
+            width:2%;
+            background-color: #f8f5f2;
+            color: #003049;
+            font-family: 'Cormorant';
+            font-size: x-small;
+            
+        }
+    
+        
+        .navbar a {
+            text-decoration: none;
+            font-family: 'Cormorant';
+            padding-top: 3px;
+            color: #003049;
+            
+        }
+        
+        .navbar a:not(.logoImgLink):hover {
+            color:#f8f5f2;
+            cursor: pointer;
+            background-color: #003049;
+            border-radius: 5px;
+            text-align: center;
+            width: 10px;
+            height: 10px;
+            
+        }
+    
+    }
+}

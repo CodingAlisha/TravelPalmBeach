@@ -13,3 +13,24 @@
     justify-content: center;
     position: relative;
 }
+
+
+/* Add iphone screen sizing */
+
+@media only screen and (max-width: 600px) {
+    .banner  {
+        width:100%;
+        object-fit: cover;
+        height: 90vh;
+        margin: auto;
+        align-self: stretch;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+       
+    }
+}
