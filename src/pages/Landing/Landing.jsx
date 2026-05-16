@@ -13,6 +13,9 @@ import { Link } from 'react-router-dom'
 import Card from '../../components/Card/Card';
 import SteakHouse from '../../assets/steakHouse.jpg'
 import Explore from '../Explore/Explore';
+import Romance from '../Romance/Romance';
+import Adventure from '../Adventure/Adventure';
+import Hotel from '../Hotel/Hotel';
 
 const landingCards = [
   {
