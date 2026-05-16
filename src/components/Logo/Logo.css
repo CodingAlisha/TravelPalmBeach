@@ -6,7 +6,10 @@
    
     max-width: 5rem;
     max-height: 9rem;
-    padding-left: 9px;
+    /* padding-left: 9px; */
+    margin-left: 25rem;
+    margin-top: 0.5rem;
+    /* position: block; */
 }
 
 .logoText {
@@ -16,3 +19,30 @@
     display:inline-block;
     
 }
+
+
+@media only screen and ( max-width: 821px ){
+    .logoImg {
+   
+        max-width: 5rem;
+        max-height: 9rem;
+        padding-top: 9px;
+        margin-left: 2rem;
+        top: -10px;
+        position: fixed;
+    }
+    
+    }
+
+    @media only screen and ( max-width: 600px ){
+        .logoImg {
+       
+            max-width: 5rem;
+            max-height: 9rem;
+            padding-top: 9px;
+            margin-left: -2rem;
+            top: -10px;
+            position: fixed;
+        }
+        
+        }
